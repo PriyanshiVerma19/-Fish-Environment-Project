@@ -1,38 +1,49 @@
----
-title: Fish Tank Environment API
-emoji: 🐟
-colorFrom: blue
-colorTo: green
-sdk: docker
-app_port: 7860
----
+# 🐟 Fish Environment Monitoring Project
 
-# Fish Tank Environment API
+## 📌 Project Overview
 
-A FastAPI project that simulates an aquarium environment. It uses different tank conditions and actions to calculate rewards.
+The Fish Environment Monitoring Project is a Python-based application designed to support fish environment monitoring through software and API-based functionality.
 
-## Features
+The project includes a backend API that provides communication between the application and other services. It is designed to make fish environment-related information accessible through an organized software system.
 
-- Easy, medium, and hard aquarium scenarios
-- Aquarium state management
-- Actions such as cleaning the tank, feeding fish, and adding oxygen
-- Reward-based environment simulation
-- FastAPI endpoints
-- Local inference testing
-- Docker deployment support
+## ✨ Key Features
 
-## API Endpoints
+- Fish environment monitoring functionality.
+- Backend API integration.
+- Python-based application.
+- Communication through API endpoints.
+- Deployment support using Hugging Face Spaces.
 
-- `GET /` - Check whether the API is running
-- `GET /tasks` - Show available actions
-- `GET /state` - Get the current aquarium state
-- `POST /reset` - Reset the environment for a selected level
-- `POST /step` - Take an action and receive a reward
-- `GET /baseline` - View baseline information
+## 🛠️ Tools & Technologies Used
 
-## Run Locally
+- **Python:** Main programming language used for development.
+- **FastAPI:** Backend framework for building API endpoints.
+- **Hugging Face Spaces:** Platform used for hosting and deploying the application.
+- **Git:** Version control.
+- **GitHub:** Source code management and project hosting.
+- **VS Code:** Development environment.
+- **Uvicorn:** ASGI server for running the FastAPI application.
 
-Install the required packages:
+## ⚙️ Project Setup
 
-```bash
-pip install -r requirements.txt
+1. Clone the repository:
+   ```bash
+   git clone YOUR_REPOSITORY_LINK
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd Fish-Environment-Project
+   ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the application using the appropriate startup command.
+
+## 🌐 Deployment
+
+The project uses Hugging Face Spaces for application hosting and deployment.
+
