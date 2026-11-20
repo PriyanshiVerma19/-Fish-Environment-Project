@@ -1,0 +1,12 @@
+paths:
+  /reset:
+    post:
+      description: Reset environment
+
+  /step:
+    post:
+      description: Take action
+
+  /state:
+    get:
+      description: Get current state
